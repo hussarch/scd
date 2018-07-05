@@ -1,0 +1,10 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: conf-client
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:9090

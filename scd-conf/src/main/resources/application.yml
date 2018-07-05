@@ -1,0 +1,18 @@
+server:
+  port: 9090
+project:
+  dir:
+    conf: /Users/sailor/git/spring-cloud-demo/scd-conf/src/main/resources
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file://${project.dir.conf}/conf/,file://${project.dir.conf}/lsr
+          version: 1.9.42
+        git:
+          uri: file:///Users/sailor/git/config
+      label: mop
+

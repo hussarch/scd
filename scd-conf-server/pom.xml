@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>scd-conf</artifactId>
+    <artifactId>scd-conf-server</artifactId>
 
     <dependencyManagement>
         <dependencies>

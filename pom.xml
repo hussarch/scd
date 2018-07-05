@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>scd-core</module>
-        <module>scd-conf</module>
+        <module>scd-conf-server</module>
         <module>scd-conf-client</module>
     </modules>
 

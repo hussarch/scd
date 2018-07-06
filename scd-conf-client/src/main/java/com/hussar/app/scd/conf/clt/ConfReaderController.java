@@ -3,6 +3,7 @@ package com.hussar.app.scd.conf.clt;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.env.CompositePropertySource;
 import org.springframework.core.env.Environment;
@@ -25,10 +26,17 @@ public class ConfReaderController{
     //@Value("${hello.msg.xx}")
     private String properValue;
 
+    @Autowired
+    public ConfReaderController(ApplicationContext context){
+        properValue = context.getEnvironment().getProperty("document");
+    }
+
+
     @RequestMapping("/properties")
     public String getAllProperties(){
         return properValue;
     }
 
-    
+
+
 }

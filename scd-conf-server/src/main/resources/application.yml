@@ -10,8 +10,8 @@ spring:
     config:
       server:
         native:
-          search-locations: file://${project.dir.conf}/conf/,file://${project.dir.conf}/lsr
-          version: 1.9.42
+          search-locations: file://${project.dir.conf}/conf/xx
+          version: 1.9.42000
         git:
           uri: file:///Users/sailor/git/config
       label: mop

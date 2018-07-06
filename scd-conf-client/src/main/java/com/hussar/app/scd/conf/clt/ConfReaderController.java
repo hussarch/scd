@@ -23,14 +23,8 @@ import java.util.List;
 @RestController
 public class ConfReaderController{
 
-    //@Value("${hello.msg.xx}")
+    @Value("${hello.msg.xx}")
     private String properValue;
-
-    @Autowired
-    public ConfReaderController(ApplicationContext context){
-        properValue = context.getEnvironment().getProperty("document");
-    }
-
 
     @RequestMapping("/properties")
     public String getAllProperties(){

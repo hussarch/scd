@@ -3,6 +3,6 @@ db.name=zeus
 db.user.name=admin
 db.user.passd=admin123
 db.url=jdbc:mysql:localhost:3000
-hello.msg=welcome to config server yml dev
+hello.msg.xx=welcome to config server yml dev
 
 

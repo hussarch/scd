@@ -2,7 +2,7 @@ server:
   port: 9090
 project:
   dir:
-    conf: /Users/sailor/git/spring-cloud-demo/scd-conf/src/main/resources
+    conf: /Users/sailor/git/spring-cloud-demo/scd-conf-server/src/main/resources
 spring:
   profiles:
     active: native

@@ -12,6 +12,9 @@
         <module>scd-core</module>
         <module>scd-conf-server</module>
         <module>scd-conf-client</module>
+        <module>scd-eureka-server</module>
+        <module>scd-eureka-client1</module>
+        <module>scd-eureka-client2</module>
     </modules>
 
 

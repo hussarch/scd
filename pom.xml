@@ -15,6 +15,7 @@
         <module>scd-eureka-server</module>
         <module>scd-eureka-client1</module>
         <module>scd-eureka-client2</module>
+        <module>scd-discovery-client</module>
     </modules>
 
 

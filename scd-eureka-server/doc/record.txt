@@ -9,5 +9,8 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 service-url:
       defaultZone: http://localhost:8888/eureka
 
+2、Finchley.RELEASE version, some artifactId could not be found
+https://spring.io/blog/2017/10/31/spring-cloud-finchley-m3-released
+
 
 

@@ -12,7 +12,7 @@ import java.util.Random;
  * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/10.
  */
 @RestController
-@RequestMapping("/")
+@RequestMapping("/app")
 public class EurakaClientController {
 
     @RequestMapping("/{name}")

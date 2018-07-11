@@ -1,0 +1,13 @@
+异常解决
+1、2018-07-10 17:37:44.267 ERROR 44729 --- [et_localhost-11] c.n.e.cluster.ReplicationTaskProcessor   : Network level connection to peer localhost; retrying after delay
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+
+解决方法：
+在application.yml
+中加入
+service-url:
+      defaultZone: http://localhost:8888/eureka
+
+
+

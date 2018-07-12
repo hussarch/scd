@@ -1,4 +1,4 @@
-package com.hussar.app.scd.eraclt1;
+package com.hussar.app.scd.dcyclt.model;
 
 import java.util.Date;
 

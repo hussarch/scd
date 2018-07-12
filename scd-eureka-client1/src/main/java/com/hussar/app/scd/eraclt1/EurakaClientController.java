@@ -5,9 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Date;
-import java.util.Random;
-import java.util.UUID;
+import java.util.*;
 
 /**
  * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/10.
@@ -41,6 +39,22 @@ public class EurakaClientController {
         }
         return new Foo(id, "xxx", "This item uuid is " + UUID.randomUUID());
 
+    }
+
+    @RequestMapping("/foos/{size}")
+    public List<Foo> getFooList(@PathVariable("size") Integer size){
+        Random rd = new Random();
+        int waitTime = rd.nextInt(5);
+        try {
+            Thread.sleep(waitTime * 100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        List<Foo> list = new ArrayList<>();
+        for(int i = 0; i < size; i++){
+            list.add(new Foo(i + rd.nextInt(100), "mke_" + i, "This item uuid is " + UUID.randomUUID()));
+        }
+        return list;
     }
 
 }

@@ -13,12 +13,12 @@ import java.util.List;
 /**
  * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/12.
  */
-@FeignClient("client1")
+@FeignClient(name = "client1", qualifier = "fooFeignClient")
 public interface FooFeignClient extends FooService{
 
     @RequestMapping(
             method= RequestMethod.GET,
             value="/app/foos//{size}",
             consumes="application/json")
-    public List<Foo> getFooList(@PathVariable("size") Integer size);
+    List<Foo> getFooList(@PathVariable("size") Integer size);
 }

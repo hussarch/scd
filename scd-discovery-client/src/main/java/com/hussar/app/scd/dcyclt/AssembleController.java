@@ -28,7 +28,8 @@ public class AssembleController {
     private FooService fooRestTemplateClient;
 
     @Autowired
-    private FooFeignClient fooFeignClient;
+    @Qualifier("fooFeignClient")
+    private FooService fooFeignClient;
 
     @RequestMapping("/foos/{type}/{size}")
     public List<Foo> getFooList(@PathVariable("type") String type, @PathVariable("size") Integer size){

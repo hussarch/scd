@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.List;
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/12.
+ * Created by 肖毅(hussarch@126.com) on 18/7/12.
  */
 @Component("fooRestTemplateClient")
 public class FooRestTemplateClient implements FooService{

@@ -18,7 +18,7 @@ import java.util.List;
 
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/5.
+ * Created by 肖毅(hussarch@126.com) on 18/7/5.
  */
 @RestController
 public class ConfReaderController{

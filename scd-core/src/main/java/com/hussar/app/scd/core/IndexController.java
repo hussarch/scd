@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/3.
+ * Created by 肖毅(hussarch@126.com) on 18/7/3.
  */
 @RestController
 public class IndexController {

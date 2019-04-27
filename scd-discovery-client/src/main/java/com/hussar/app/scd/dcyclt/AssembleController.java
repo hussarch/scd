@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/11.
+ * Created by 肖毅(hussarch@126.com) on 18/7/11.
  */
 @RestController
 @RequestMapping("/app")

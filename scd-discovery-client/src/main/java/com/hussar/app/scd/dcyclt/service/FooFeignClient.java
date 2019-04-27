@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.List;
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/12.
+ * Created by 肖毅(hussarch@126.com) on 18/7/12.
  */
 @FeignClient(name = "client1", qualifier = "fooFeignClient")
 public interface FooFeignClient extends FooService{

@@ -3,7 +3,7 @@ package com.hussar.app.scd.eraclt1;
 import java.util.Date;
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/11.
+ * Created by 肖毅(hussarch@126.com) on 18/7/11.
  */
 public class Foo {
 

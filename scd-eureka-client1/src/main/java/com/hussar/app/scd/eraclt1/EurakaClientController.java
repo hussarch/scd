@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.*;
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/10.
+ * Created by 肖毅(hussarch@126.com) on 18/7/10.
  */
 @RestController
 @RequestMapping("/app")

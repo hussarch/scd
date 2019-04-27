@@ -15,7 +15,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/11.
+ * Created by 肖毅(hussarch@126.com) on 18/7/11.
  */
 @Component("fooDiscoveryClient")
 public class FooDiscoveryClient implements FooService{

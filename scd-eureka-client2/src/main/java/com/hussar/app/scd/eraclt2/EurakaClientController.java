@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.Random;
 
 /**
- * Created by 肖毅(xiaoyi@shhxzq.com) on 18/7/10.
+ * Created by 肖毅(hussarch@126.com) on 18/7/10.
  */
 @RestController
 @RequestMapping("/app")

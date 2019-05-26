@@ -1,7 +1,6 @@
 package com.hussar.app.scd.dcyclt;
 
 import com.hussar.app.scd.dcyclt.model.Foo;
-import com.hussar.app.scd.dcyclt.service.FooFeignClient;
 import com.hussar.app.scd.dcyclt.service.FooService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
